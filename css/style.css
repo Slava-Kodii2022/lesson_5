@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+/* ================================ */
+
+.header__container {
+	padding-top: 10px;
+	display: flex;
+	column-gap: 10px;
+	row-gap: 15px;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 10px;
+	background-color: #dddddd;
+	text-transform: uppercase;
+}
+
+.header__logo {
+	font-weight: 800;
+	font-size: 18px;
+	color: inherit;
+}
+
+/* ================================ */
+
+.menu__list {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 46px;
+	row-gap: 15px;
+}
+
+.menu__link {
+	font-size: 12px;
+	font-weight: 800;
+	color: inherit;
+}
+
+
+
+/* ================================= */
+.title {
+	text-decoration: underline;
+	font-size: 25px;
+	font-family: "Lato";
+	font-weight: 900;
+	text-shadow: 5px 5px 0.2px #5c9da8;
+	letter-spacing: 15px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+/* ================================== */
+.text {
+	font-family:"Larsseit";
+	font-weight: 500;
+	text-indent: 14px;
+	color: rgb(87, 85, 85);
+	text-align: justify;
+}
+
+/* ================================== */
+.highlight{
+	color: rgb(78, 78, 78);
+	font-size: 25px;
+}
+/* ================================== */
+.foto {
+	margin-top: 5px;
+	padding: 20px;
+	background-color: rgba(245, 237, 121, 0.493);
+}
+
+/* ================================== */
+.text__two{
+	font-family:"Larsseit";
+	font-weight: 500;
+	text-indent: 18px;
+	color: rgb(85, 82, 82);
+}
+
+/* ================================== */
+.site{
+	color: rgb(13, 207, 23);
+	text-decoration: double;
+	font-size: 25px;
+}
+/* ================================== */
+/* ================================ */
+
+.end__container {
+	padding-top: 10px;
+	display: flex;
+	column-gap: 10px;
+	row-gap: 15px;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 10px;
+	background-color: rgba(97, 77, 114, 0.836);
+}
+
+.link {
+	font-weight: 800;
+	font-size: 23px;
+	color: inherit;
+}
+
+/* ================================ */
+
+.endmenu__list {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 46px;
+	row-gap: 15px;
+}
+
+.endmenu__link {
+	font-size: 13px;
+	font-weight: 700;
+	color: inherit;
+}
+
